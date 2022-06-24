@@ -6,10 +6,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.android.test.testandroid.R
+import com.android.test.testandroid.data.model.Event
 import com.android.test.testandroid.databinding.EventItemBinding
-import com.android.test.testandroid.domain.model.Event
 import com.android.test.testandroid.ui.adapter.EventListAdapter.EventListViewHolder
-import com.android.test.testandroid.ui.loadImageUrl
+import com.android.test.testandroid.ui.helper.loadImageUrl
 
 typealias onEventClick = ((item: Event) -> Unit)?
 class EventListAdapter(

@@ -1,5 +1,5 @@
 @file:Suppress("UNCHECKED_CAST")
-package com.android.test.testandroid
+package com.android.test.testandroid.data.helper
 
 open class Result<out R> @PublishedApi internal constructor(
     @PublishedApi

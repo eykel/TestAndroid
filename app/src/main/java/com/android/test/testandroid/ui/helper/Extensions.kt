@@ -1,4 +1,4 @@
-package com.android.test.testandroid.ui
+package com.android.test.testandroid.ui.helper
 
 import android.app.Activity
 import android.content.Context
@@ -9,7 +9,7 @@ import android.widget.ImageView
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
-import com.android.test.testandroid.Constants.EMPTY_STRING
+import com.android.test.testandroid.ui.helper.Constants.EMPTY_STRING
 import com.android.test.testandroid.R
 import com.android.test.testandroid.di.KoinInjector
 import com.bumptech.glide.Glide

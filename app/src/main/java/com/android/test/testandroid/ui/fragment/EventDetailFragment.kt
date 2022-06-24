@@ -13,12 +13,12 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.android.test.testandroid.Constants.TEXT_TYPE
+import com.android.test.testandroid.ui.helper.Constants.TEXT_TYPE
 import com.android.test.testandroid.R
+import com.android.test.testandroid.data.model.Event
 import com.android.test.testandroid.databinding.CustomAlertDialogBinding
 import com.android.test.testandroid.databinding.FragmentEventDetailBinding
-import com.android.test.testandroid.domain.model.Event
-import com.android.test.testandroid.ui.*
+import com.android.test.testandroid.ui.helper.*
 import com.android.test.testandroid.ui.view_model.EventDetailViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

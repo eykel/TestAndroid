@@ -5,11 +5,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.android.test.testandroid.R
+import com.android.test.testandroid.data.helper.onFailure
+import com.android.test.testandroid.data.helper.onSuccess
 import com.android.test.testandroid.data.model.CheckInRequest
 import com.android.test.testandroid.data.repository.EventRepository
-import com.android.test.testandroid.onFailure
-import com.android.test.testandroid.onSuccess
-import com.android.test.testandroid.ui.getString
+import com.android.test.testandroid.ui.helper.getString
 import kotlinx.coroutines.launch
 
 class EventDetailViewModel(

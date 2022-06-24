@@ -28,7 +28,7 @@
         tools:layout="@layout/fragment_event_detail">
         <argument
             android:name="item"
-            app:argType="com.android.test.testandroid.domain.model.Event"
+            app:argType="com.android.test.testandroid.data.model.Event"
             app:nullable="false"/>
 
     </fragment>

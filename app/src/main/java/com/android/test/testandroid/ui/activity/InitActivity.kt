@@ -31,6 +31,7 @@ class InitActivity : AppCompatActivity() {
                 scaleYBy(ANIM_NEGATIVE_SCALE)
             }.withEndAction {
                 startActivity(Intent(this@InitActivity, EventActivity::class.java))
+                finish()
             }
         }.start()
     }

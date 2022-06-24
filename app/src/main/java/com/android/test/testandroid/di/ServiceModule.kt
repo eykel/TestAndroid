@@ -1,6 +1,6 @@
 package com.android.test.testandroid.di
 
-import com.android.test.testandroid.Constants.BASE_URL
+import com.android.test.testandroid.ui.helper.Constants.BASE_URL
 import com.android.test.testandroid.data.networking.EventNetworking
 import com.android.test.testandroid.data.repository.EventRepository
 import com.android.test.testandroid.data.service.EventService

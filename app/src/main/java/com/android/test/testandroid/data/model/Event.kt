@@ -1,4 +1,4 @@
-package com.android.test.testandroid.domain.model
+package com.android.test.testandroid.data.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.window.SplashScreen
 import androidx.annotation.DrawableRes
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
@@ -13,13 +12,13 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.android.test.testandroid.R
+import com.android.test.testandroid.data.model.EventList
 import com.android.test.testandroid.databinding.FragmentEventListBinding
-import com.android.test.testandroid.domain.model.EventList
 import com.android.test.testandroid.ui.adapter.EventListAdapter
-import com.android.test.testandroid.ui.gone
-import com.android.test.testandroid.ui.observe
+import com.android.test.testandroid.ui.helper.gone
+import com.android.test.testandroid.ui.helper.observe
 import com.android.test.testandroid.ui.view_model.EventListViewModel
-import com.android.test.testandroid.ui.visible
+import com.android.test.testandroid.ui.helper.visible
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 

@@ -1,9 +1,9 @@
 package com.android.test.testandroid.data.mapper
 
-import com.android.test.testandroid.Constants
+import com.android.test.testandroid.data.model.Event
+import com.android.test.testandroid.data.model.EventList
+import com.android.test.testandroid.ui.helper.Constants
 import com.android.test.testandroid.data.model.EventListResponse
-import com.android.test.testandroid.domain.model.Event
-import com.android.test.testandroid.domain.model.EventList
 import java.math.RoundingMode
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
