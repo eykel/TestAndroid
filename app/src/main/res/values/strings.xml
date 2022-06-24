@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TestAndroid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="generic_error_text">Ocorreu um erro e ja estamos trabalhando para resolver =)</string>
+    <string name="no_content_error_text">No momento não temos eventos disponíveis, avisaremos quando houver novidades!</string>
+    <string name="address_text">%1$s, %2$s, %3$s - %4$s, %5$s</string>
+    <string name="cd_back_button">back button</string>
+    <string name="tv_events_text">Eventos</string>
+    <string name="tv_event_text">Evento</string>
+    <string name="cd_share_button">Botão de compatilhar</string>
+    <string name="cd_event_image">Imagem capa do evento</string>
+    <string name="tv_event_title">Feira de Troca de Livros</string>
+    <string name="tv_event_date_hint">21/01/2022</string>
+    <string name="tv_event_date">Quando: %1$s</string>
+    <string name="tv_event_price">Valor: %1$s</string>
+    <string name="tv_event_price_hint">R$ 33,90</string>
+    <string name="tv_event_location">Localização</string>
+    <string name="tv_about_event">Sobre o evento</string>
+    <string name="tv_event_description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</string>
+    <string name="bt_do_check_in">Fazer Check In</string>
+    <string name="bt_check_in_done">Check In realizado</string>
+    <string name="dialog_tv_title">Realizar Check-In</string>
+    <string name="dialog_tv_description">Antes de finalizar o check-in, precisamos de alguns dados, para podermos entrar em contato contigo e lhe enviar mais informações</string>
+    <string name="dialog_il_name_hint">Nome</string>
+    <string name="dialog_il_email_hint">Email</string>
+    <string name="dialog_bt_ok">Enviar</string>
+    <string name="dialog_bt_cancel">Cancelar</string>
+    <string name="dialog_error_message">Por favor, digite um nome e um email válido para continuar</string>
+    <string name="share_title">Compartilhar usando</string>
+    <string name="share_message">Clique no link e veja mais detalhes! (Link de um site com a info ou da playstore, ou deeplink) http://www.google.com.br</string>
+    <string name="error_view_message_hint">No momento não temos eventos disponíveis, avisaremos quando houver novidades!</string>
+    <string name="error_view_bt_text">Recarregar</string>
+    <string name="error_view_cd_image">Alerta de erro</string>
+    <string name="init_logo_image">Logo com animação ficando maior e menor</string>
+</resources>
